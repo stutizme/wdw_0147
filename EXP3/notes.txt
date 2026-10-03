@@ -1,0 +1,140 @@
+HTML TABLE NOTES
+
+
+IMPORTANT ONE GLANCE:
+<table>  = Creates table
+<tr>     = Creates row
+<th>     = Table heading
+<td>     = Table data
+caption  = Table title
+border   = Table border
+colspan  = Joins columns ----> 
+rowspan  = Joins rows 
+
+1. <table>
+Used to create a table.
+
+Example:
+<table border="1">
+</table>
+
+
+2. <tr>
+TR = Table Row
+
+Used to create a row in a table.
+
+Example:
+<tr>
+</tr>
+
+
+3. <th>
+TH = Table Heading
+
+Used to create the heading of a table.
+By default, text is bold and centered.
+
+Example:
+<th>Name</th>
+<th>Age</th>
+
+
+4. <td>
+TD = Table Data
+
+Used to write normal data inside a table.
+
+Example:
+<td>Rahul</td>
+<td>18</td>
+
+
+5. border="1"
+Used to give a border to the table.
+
+Example:
+<table border="1">
+
+
+6. <caption>
+Used to give a title/name to the table.
+
+Example:
+<caption>Student Details</caption>
+
+
+7. colspan
+COLSPAN = Column Span
+
+Used to combine/join columns.
+
+Example:
+<td colspan="2">Computer Lab</td>
+
+This cell will take the space of 2 columns.
+
+colspan="3" → joins 3 columns
+colspan="4" → joins 4 columns
+
+
+8. rowspan
+ROWSPAN = Row Span
+
+Used to combine/join rows.
+
+Example:
+<td rowspan="2">Mathematics</td>
+
+This cell will take the space of 2 rows.
+
+rowspan="3" → joins 3 rows
+rowspan="4" → joins 4 rows
+
+
+9. Difference between colspan and rowspan
+
+colspan → joins COLUMNS
+         → horizontal
+         → left to right
+
+rowspan → joins ROWS
+         → vertical
+         → top to bottom
+
+
+10. Basic table structure
+
+<table border="1">
+
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+
+    <tr>
+        <td>Rahul</td>
+        <td>18</td>
+    </tr>
+
+</table>
+
+
+11. Nested Table
+
+A table inside another table is called a Nested Table.
+
+Example:
+
+<td>
+    <table border="1">
+        <tr>
+            <th>Lab Details</th>
+        </tr>
+        <tr>
+            <td>DBMS Lab</td>
+        </tr>
+    </table>
+</td>
+
+                         
