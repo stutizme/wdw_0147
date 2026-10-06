@@ -1,0 +1,97 @@
+
+
+
+
+align="center"
+ Content ko center mein karta hai.
+
+
+
+<form>
+ Form banane ke liye use hota hai, User se information lene ke liye
+
+
+<label>Input box ka naam/description likhne ke liye
+Example: Full Name:, Email:, Phone:
+
+
+<input>
+ User se data lene ke liye input box banata hai
+
+
+type="text"
+ Normal text input ke liye.
+ Example: Full Name
+
+
+type="email"
+ Email enter karne ke liye.
+ Browser email format check kar sakta hai.
+
+
+type="tel"
+ Phone number enter karne ke liye
+
+
+type="date"
+ Date select karne ke liye Calendar open hota hai.
+
+
+type="number"
+ Number enter karne ke liye
+ Example: Number of Guests
+
+
+<select>
+ Dropdown list banata hai.
+
+<option>
+ Dropdown ke andar options banata hai
+
+Example:
+
+<select>
+    <option>Single Room</option>
+    <option>Double Room</option>
+</select>
+
+Isse dropdown mein single room aur double Room dikhenge
+
+
+<textarea>
+ Bada text box banata hai.
+ Long message ya special request ke liye use hota hai.
+
+rows="4"
+Textarea ki height/rows set karta hai
+
+cols="38"
+Textarea ki width/columns set karta hai
+
+
+<br>
+Line break karta hai.
+Next line par le jaata hai.
+
+<br><br>
+Ek blank line ka extra space create karta ha
+
+
+type="submit"
+Form submit karne ka button banata ha
+
+value="Book Now"
+Button par "Book Now" text dikhata ha
+
+
+type="reset"
+Form ke saare entered data ko clear karta hai
+
+value="Reset Form"
+ Reset button par "Reset Form" text dikhata ha
+
+
+</form>
+Form ka end.
+
+
