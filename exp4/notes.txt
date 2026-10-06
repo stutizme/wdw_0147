@@ -17,7 +17,8 @@ Example: Full Name:, Email:, Phone:
 
 <input>
  User se data lene ke liye input box banata hai
-
+(<input type="text" required>
+if required  is added then u have to fill it the syntax its <input type="whtever is type" required>)
 
 type="text"
  Normal text input ke liye.
