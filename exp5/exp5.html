@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>                      
+<head>
+    <title>student regsitration form</title>
+</head>
+<body>
+    <h1 Align="center"> Student Registration Form</h1>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+    
+    <label>gender:</label>
+    <input type="radio"  name="gender" value="male" required>male
+    <input type ="radio" name ="gender" value="female" required>female
+    <input type ="radio" name="gender" value="other"required>other
+    <br><br>
+    
+    <label for="course">Course:</label>
+    <select id="course" name="course" required>
+        <option value="">Select a course</option>
+        <option value="computer-science">Computer Science</option>
+        <option value="mathematics">Mathematics</option>
+        <option value="physics">Physics</option>
+        <option value="chemistry">Chemistry</option>
+    </select>
+    <br><br>
+    <label for="contact">contact:</label>
+    <input type="tel" id="phone" name="contact" required>
+    <br><br>
+     <label>Address: </label><br>             
+     <textarea name="address" rows="4" cols="40" placeholder="Enter your address" required></textarea> 
+    <br><br>
+    
+    
+    <input type="submit" value="Register">
+     </form>     
+      <hr>     
+      <p align="center">&copy; 2025 Student Registration Portal</p> 
+</body>
+</html>
