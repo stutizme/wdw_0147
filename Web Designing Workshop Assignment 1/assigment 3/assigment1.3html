@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Install Visual Studio Code</title>
+</head>
+<body>
+
+    <h1>Steps to Install Visual Studio Code</h1>
+
+    <ol>
+        <li>Open your web browser.</li>
+        <li>Visit the official Visual Studio Code website.</li>
+        <li>Click on the Download button.</li>
+        <li>Run the downloaded setup file.</li>
+        <li>Follow the instructions to complete installation.</li>
+    </ol>
+
+</body>
+</html>
